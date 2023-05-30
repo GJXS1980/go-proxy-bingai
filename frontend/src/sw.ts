@@ -5,7 +5,7 @@ import { CacheableResponsePlugin } from 'workbox-cacheable-response';
 import { ExpirationPlugin } from 'workbox-expiration';
 
 declare let self: ServiceWorkerGlobalScope;
-const CACHE_NAME_PREFIX = 'BingAI';
+const CACHE_NAME_PREFIX = 'Copilot';
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
