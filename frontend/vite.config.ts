@@ -19,8 +19,8 @@ const initPwaOptions = (env: Record<string, string>) => {
     // filename: 'sw.ts',
     includeAssets: ['img/logo.svg'],
     manifest: {
-      name: 'BingAI',
-      short_name: 'BingAI',
+      name: 'Copilot',
+      short_name: 'Copilot',
       theme_color: '#ffffff',
       icons: [
         {
